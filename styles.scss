@@ -1,0 +1,44 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 0;
+  margin: 5px;
+}
+
+.todo {
+  &__title {
+    font-size: 2em;
+  }
+  &__list {
+    width: 400px;
+  }
+  &__item {
+    list-style: none;
+    &--wait {
+      background-color: yellow;
+    }
+  }
+  &__label {
+    display: inline-block;
+    width: 300px;
+    background-color: lightyellow;
+    &--done {
+      background-color: lightgreen;
+      text-decoration: line-through;
+    }
+    &--delete {
+      background-color: pink;
+    }
+  }
+  &__btn-delete {
+    border: 0;
+    color: red;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    &:hover {
+      color: white;
+      background-color: red;
+    }
+  }
+}

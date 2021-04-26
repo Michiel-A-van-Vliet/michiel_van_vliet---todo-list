@@ -1,0 +1,42 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 0;
+  margin: 5px;
+}
+
+.todo__title {
+  font-size: 2em;
+}
+.todo__list {
+  width: 400px;
+}
+.todo__item {
+  list-style: none;
+}
+.todo__item--wait {
+  background-color: yellow;
+}
+.todo__label {
+  display: inline-block;
+  width: 300px;
+  background-color: lightyellow;
+}
+.todo__label--done {
+  background-color: lightgreen;
+  text-decoration: line-through;
+}
+.todo__label--delete {
+  background-color: pink;
+}
+.todo__btn-delete {
+  border: 0;
+  color: red;
+  background-color: white;
+  width: 32px;
+  height: 32px;
+}
+.todo__btn-delete:hover {
+  color: white;
+  background-color: red;
+}/*# sourceMappingURL=styles.css.map */
